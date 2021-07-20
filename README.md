@@ -21,10 +21,11 @@ The project is submitted for a challenge for the Digital Product School (DPS). I
 The below image, is the historical visualization of the accidents per category, starting from the year 2000 up to 2020.
 ![Historical_values](historical_accidents.png)  
   
- More visualization representing the trend and seasonality can be previewed in the Visualization notebook.
+ More visualization representing the trend and seasonality can be previewed in the Preprocessing notebook.
+ 
  ### Model training:
  
- The SARIMA forecasting algorithm was used, as the data as deduced from the graphs has seasonality and trend, which is tackled by the ARIMA model.
+ The SARIMA forecasting algorithm is used, as the data as deduced from the graphs has seasonality and trend, which is tackled by the ARIMA model.
  The data available are from the year 2000 till the end of 2020, the first step was estimating the values for the hyper-parameters for the model. A step-bystep explanation can be fe accidents caused by alcohol in the image below:
  ![alcohol_forecast](Alcohol_forecast.png)  
 
