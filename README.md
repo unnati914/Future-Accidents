@@ -14,3 +14,19 @@ The project is submitted for a challenge for the Digital Product School (DPS). I
  - **Training.ipynb**: A jupyter notebook that loads the preprocessed data, then estimating the parameters passed for the forecasting algorithm "SARIMA". The model is trained and tested on the year 2020 data, the model is then evaluated and exported for deployment.
  - **inference.py & endpoint.py**: Two scripts, in order, the former contains the class which performs the  forecasting and returns the result. The latter is the endpoint, which is deployed.
  - **test.py**: a script to test the requests to the endpoint.
+
+## Results
+
+### Visualizing historical data:
+The below image, is the historical visualization of the accidents per category, starting from the year 2000 up to 2020.
+![Historical_values](historical_accidents.png)  
+  
+ More visualization representing the trend and seasonality can be previewed in the Visualization notebook.
+ ### Model training:
+ 
+ The SARIMA forecasting algorithm was used, as the data as deduced from the graphs has seasonality and trend, which is tackled by the ARIMA model.
+ The data available are from the year 2000 till the end of 2020, the first step was estimating the values for the hyper-parameters for the model. A step-bystep explanation can be fe accidents caused by alcohol in the image below:
+ ![alcohol_forecast](Alcohol_forecast.png)  
+
+
+
