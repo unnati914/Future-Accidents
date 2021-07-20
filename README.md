@@ -30,4 +30,8 @@ The below image, is the historical visualization of the accidents per category, 
  ![alcohol_forecast](Alcohol_forecast.png)  
 
 
+ ### Deployment:
+The model is deployed on AWS server using FLASK and WSGI web server.
+The model accepts POST requests in JSON body format containing the year and the month (must be after 2021)
+
 
