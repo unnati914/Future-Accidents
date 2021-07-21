@@ -12,7 +12,7 @@ The project is submitted for a challenge for the Digital Product School (DPS). I
 
  - **Preprocessing.ipynb**: A jupyter notebook contains a step-by-step of importing the data, cleaning, and then visualizing the results
  - **Training.ipynb**: A jupyter notebook that loads the preprocessed data, then estimating the parameters passed for the forecasting algorithm "SARIMA". The model is trained and tested on the year 2020 data, the model is then evaluated and exported for deployment.
- - **inference.py & endpoint.py**: Two scripts, in order, the former contains the class which performs the  forecasting and returns the result. The latter is the endpoint, which is deployed.
+ - **inference.py & app.py**: Two scripts, in order, the former contains the class which performs the  forecasting and returns the result. The latter is the endpoint, which is deployed.
  - **test.py**: a script to test the requests to the endpoint.
 
 ## Results
@@ -29,9 +29,5 @@ The below image, is the historical visualization of the accidents per category, 
  The data available are from the year 2000 till the end of 2020, the first step was estimating the values for the hyper-parameters for the model. A step-bystep explanation can be fe accidents caused by alcohol in the image below:
  ![alcohol_forecast](Alcohol_forecast.png)  
 
-
- ### Deployment:
-The model is deployed on AWS server using FLASK and WSGI web server.
-The model accepts POST requests in JSON body format containing the year and the month (must be after 2021)
 
 
